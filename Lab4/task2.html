@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+      /* Write your code here */
+* {
+  box-sizing: border-box;
+}
+.card {
+          border-style: groove;
+          border-color: #ddffff;
+          width: auto;
+          height: auto;
+          margin-top: 5px;
+}
+.img {
+          float: left;
+}
+.desc {
+
+}
+.price {
+          margin-top: 45px;
+          text-align: left;
+}
+@media screen and (max-width: 700px) {
+  .img {
+          display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .desc {
+          display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .price {
+          margin-top: -15px;
+          text-align: right;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card {
+          width: 200px;
+          height: 30px;
+  }
+}
+</style>
+<title>667</title>
+</head>
+
+<body>
+    <div class="card first">
+      <img class="img" src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">Mercedes C100</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price"><b>10.000$</b></div>
+      </section>
+    </div>
+    <div class="card">
+      <img class="img" src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">BMW X5</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price"><b>10.000$</b></div>
+      </section>
+    </div>
+    <div class="card">
+      <img class="img" src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">Audi A8</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price"><b>10.000$</b></div>
+      </section>
+    </div>
+</body>
+</html>
