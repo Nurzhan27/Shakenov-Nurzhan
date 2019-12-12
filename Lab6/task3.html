@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+		#cars{
+		  display:flex;
+		  flex-wrap:wrap;
+		}
+		.card{
+		  position:relative;
+		  width:150px;
+		  margin:5px;
+		  font-size: 120%;
+		}
+		.card .basket{
+			display: block;
+		  background-color:white;
+		  position:absolute;
+		  right:5px;
+		  top:5px;
+		  z-index:9;
+		  height: 20px;
+		  border-radius: 3px;
+		}
+		#insideBasket{
+		  border:1px solid red;
+		  text-align:center;
+		}
+		 #m1{
+			display: none;
+			background-color:white;
+			  position:absolute;
+			  right:5px;
+			  top:5px;
+			  z-index:9;
+			  height: 20px;
+			  border-radius: 3px;
+		}
+		 #m2{
+			display: none;
+			background-color:white;
+			  position:absolute;
+			  right:5px;
+			  top:5px;
+			  z-index:9;
+			  height: 20px;
+			  border-radius: 3px;
+		} #m3{
+			display: none;
+			background-color:white;
+			  position:absolute;
+			  right:5px;
+			  top:5px;
+			  z-index:9;
+			  height: 20px;
+			  border-radius: 3px;
+		}
+	</style>
+    <script src="script3.js" defer></script>
+  </head>
+
+  <body>
+    <div id="insideBasket"><span id="items">0</span> items, total: <span id="sum">0</span>$</div>
+    <div id="cars">
+    	<div class="card">
+    		<img id='s0' style="width: 150px;height: 100px;" src="">
+    		<p id=nam0></p>
+    		<div class="basket">
+    			<div id='kup0' onclick="b1()"><img style="width: 20px;height: 20px;" src="shopping-cart.png" ></div>
+    		</div>
+    			<div id='m1' onclick="f1()"><img style="width: 20px;height: 20px;" src="delete.png"></div>
+    	</div>
+    	<div class="card">
+    		<img id='s1' style="width: 150px;height: 100px;" src="">
+    		<p id='nam1'></p>
+    		<div class="basket">
+    			<div id='kup1'  onclick="b2()"><img style="width: 20px;height:20px;" src="shopping-cart.png"></div>
+    		</div>
+    			<div id='m2' onclick="f2()"><img style="width: 20px;height: 20px;" src="delete.png"></div>
+    	</div>
+    	<div class="card">
+    		<img id='s2' style="width: 150px;height: 100px;" src="">
+    		 <p id='nam2'></p>
+    		 <div class="basket">
+    		 	<div id='kup2' onclick="b3()"><img style="width: 20px;height: 20px;" src="shopping-cart.png"></div>
+    		 </div>
+    		 	<div id='m3' onclick="f3()"><img style="width: 20px;height: 20px;" src="delete.png"></div>
+    		</div>    
+    </div>
+  </body>
+
+</html>
