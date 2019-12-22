@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>AutoЗапчасти</title>
+
+		<link href="css/master.css" rel="stylesheet">
+
+	</head>
+	<body >
+		<header class="b-topBar ">
+			<div class="container ">
+				<div class="row">
+					<div class="nav-desk col-md-4 col-sm-3">
+						<div class="b-topBar__addr">
+							<span class="fa fa-map-marker"></span>
+							г. Алматы
+						</div>
+					</div>
+					<div class="nav-desk col-md-2 col-sm-3">
+						<div class="b-topBar__tel">
+							<span class="fa fa-phone"></span>
+							8-777-619-85-97
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<nav class="b-topBar__nav">
+							<ul>
+								<li><a href="index.html">Корзина</a></li>
+								<li><a href="registration.html">Регистрация</a></li>
+								<li><a 	><div  class="button js-button-campaign">Вход</div></a></li>
+							</ul>
+						</nav>
+					<!-- 
+					<div class="button js-button-campaign">sadas</div> -->
+					
+						
+
+
+					</div>
+					<!-- <div class="main"></div> -->
+
+					<div class="overlay js-overlay-campaign">
+						<div class="popup js-popup-campaign b-contacts__form">
+							<h2>Добро пожаловать</h2>
+							<form action="" class="b-contacts__form s-form">
+								<input type="text" name="mail" placeholder="Your mail">
+								<input type="password" name="password" placeholder="Your password">
+								<button type="submit" name="register" value="зарегистрироваться" id="regist"  class="btn m-btn">Зарегестрироваться<span class="fa fa-angle-right"></span></button>
+							</form>
+							<div class="close-popup js-close-campaign"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<nav class="b-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-4">
+						<div class="b-nav__logo">
+							<h3><a href="index.html">Auto<span>Запчасти</span></a></h3>
+							<h2><a href="index.html">Только качество</a></h2>
+						</div>
+					</div>
+					<div class="col-sm-9 col-xs-8" id="mobile-slider">
+						<div class="b-nav__list">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse navbar-main-slide" id="nav">
+								<ul class="navbar-nav-menu">
+									<li class="dropdown">
+										<a href="index.html">Главная</a>
+									</li>
+									<li><a href="index.html">О нас</a></li>
+									<li><a href="listings.html">Магазин</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>	
+		<section class="b-slider"> 
+			<div id="carousel" class="slide carousel carousel-fade">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/4.jpg" alt="sliderImg" />
+						<div class="container">
+							<div class="carousel-caption b-slider__info">
+								<h3>Найди свою мечту</h3>
+								<h2>Дизельный двигатель</h2>
+								<p> Производство 2015 <span>₸184,900</span></p>
+								<a class="btn m-btn" href="index.html">далее<span class="fa fa-angle-right"></span></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/7.jpg" alt="sliderImg" />
+						<div class="container">
+							<div class="carousel-caption b-slider__info">
+								<h3>Найди свою мечту</h3>
+								<h2>Колеса Baumgartner, Brand, Schiltach </h2>
+								<p>Производства 2017<span>₸18,900</span></p>
+								<a class="btn m-btn" href="index.html">далее<span class="fa fa-angle-right"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control right" href="#carousel" data-slide="next">
+					<span class="fa fa-angle-right m-control-right"></span>
+				</a>
+				<a class="carousel-control left" href="#carousel" data-slide="prev">
+					<span class="fa fa-angle-left m-control-left"></span>
+				</a>
+			</div>
+		</section>
+
+		<section class="b-search">
+			<div class="container">
+				<form action="listings.html" class="b-search__main">
+					<div class="b-search__main-title">
+						<h2>Выберите ваш модель машины</h2>
+					</div>
+					<div class="b-search__main-type">
+						<div class="col-xs-12 col-md-2">
+							<h4>Ваш выбор:</h4>
+						</div>
+						<div class="col-xs-12 col-md-10">
+							<div class="row">
+								<div class="col-xs-2 select-car">
+									<input id="type1" type="radio" name="type" />
+								
+									<img class="car" src="images/pikap.png" alt="">
+									<h5><label for="type1">Пикап</label></h5>
+								</div>
+								<div class="col-xs-2  select-car">
+									<input id="type2" type="radio" name="type" />
+									
+
+									<img class="car" src="images/crossover.png" alt="">
+									<h5><label for="type2">Кроссовер</label></h5>
+								</div>
+								<div class="col-xs-2  select-car">
+									<input id="type3" type="radio" name="type" />
+								
+									<img class="car" src="images/cupe.png" alt="">
+									<h5><label for="type3">Купе</label></h5>
+								</div>
+								<div class="col-xs-2  select-car">
+									<input id="type4" type="radio" name="type" />
+									
+									<img class="car" src="images/cabriolet.png" alt="">
+									<h5><label for="type4">Кабриолет</label></h5>
+								</div>
+								<div class="col-xs-2  select-car">
+									<input id="type5" type="radio" name="type" />
+								
+									<img class="car" src="images/sedan.png" alt="">
+									<h5><label for="type5">Седан</label></h5>
+								</div>
+								<div class="col-xs-2  select-car">
+									<input id="type6" type="radio" name="type" />
+									
+									<img class="car" src="images/miniven.png" alt="">
+									<h5><label for="type6">Минивэн</label></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="b-search__main-form">
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<div class="m-firstSelects">
+									<div class="col-xs-6">
+										<select name="select1">
+											<option value="" selected="">Mersedes</option><option value="" selected="">Toyota</option><option value="" selected="">Infinity</option><option value="" selected="">BMW</option><option value="" selected="">Lexus</option><option value="" selected="">Nissan</option>
+										</select>
+										<span class="fa fa-caret-down"></span>
+										<p>Марка машины</p>
+									</div>
+									<div class="col-xs-6">
+										<select name="select2">
+											<option value="" selected="">EX35</option>
+											<option value="" selected="">FX50</option>
+											<option value="" selected="">EX35/45</option>
+											<option value="" selected="">QX450(JR50)</option>
+										</select>
+										<span class="fa fa-caret-down"></span>
+										<p>Модель машины</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<div class="b-search__main-form-submit">
+									<button type="submit" class="btn m-btn">Поиск запчастей<span class="fa fa-angle-right"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="b-featured">
+			<div class="container">
+				<h2 class="s-title" >Популярные товары</h2>
+				<div id="carousel-small" class="owl-carousel enable-owl-carousel" data-items="4" data-navigation="true" data-auto-play="true" data-stop-on-hover="true" data-items-desktop="4" data-items-desktop-small="4" data-items-tablet="3" data-items-tablet-small="2">
+					<div>
+						<div class="b-featured__item">
+							<a href="index.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+								<!-- <span class="m-premium">Новинка</span> -->
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="index.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="index.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="index.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="detail.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="detail.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="detail.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+
+					<div>						
+						<div class="b-featured__item  rotateIn">
+							<a href="detail.html">
+								<img src="images/podveska.jpg" alt="mers" height="130" width="200" />
+							</a>
+							<div class="b-featured__item-price">
+								₸254,900
+							</div>
+							<div class="clearfix"></div>
+							<h5><a href="index.html">Подвеска W230 - SL CLASS W230</a></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="b-welcome">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-6 col-xs-12">
+						<div class="b-welcome__text fadeInLeft">
+							<h3>Наши преимущества</h3>
+							<p>Компания AutoЗапчасти занимается продажей запчастей, авто шин, масел и аксессуаров для автомобилей. Более 60 млн. наименований авто компонентов и запчастей, 6000 поставщиков и 60 млн. позиций в каталоге, позволяют сократить сроки доставки до 5 часов. Минимальные цены на все категории товаров. А так же гарантия на все 45 дней..</p>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-6 col-xs-12">
+						<div class="b-welcome__services fadeInRight">
+							<div class="row">
+							<div id="carousel-small-rev" class="owl-carousel enable-owl-carousel" data-items="3" data-navigation="true" data-auto-play="true" data-stop-on-hover="true" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="1" data-items-tablet-small="1">
+								<div class="col-xs-12 col-md-12 m-padding">
+									<div class="b-welcome__services-auto">
+										<div class="b-welcome__services-img m-auto">
+											<span class="fa fa-cab"></span>
+										</div>
+										<h3>Быстрая доставка</h3>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-12 m-padding">
+									<div class="b-welcome__services-trade">
+										<div class="b-welcome__services-img m-trade">
+											<span class="fa fa-credit-card"></span>
+										</div>
+										<h3>Легкая оплата</h3>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-12 m-padding">
+									<div class="b-welcome__services-buying">
+										<div class="b-welcome__services-img m-buying">
+											<span class="fa fa-map-marker"></span>
+										</div>
+										<h3>Доставка по всему Казахстану</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="b-contact">
+			<div class="container">
+				<div class="row " >
+					<div class="col-xs-12">
+						<div class="b-contact__form">
+							<p><i><b>Если хотите быть в курсе последних новостей, оставьте свою почту!</b></i></p>
+							<form onsubmit="return Validate()" name="vform">
+								<div id="username_div">
+									<span class="fa fa-user"></span>
+									<input class="mail-name" type="text" name="username" value="" placeholder="Введите имя" />
+									<div id="name_error"></div>
+								</div>
+								<div id="email_div">
+									<span class="fa fa-envelope"></span>
+									<input type="text" class="mail-name" name="email" value="" placeholder="Введите почту" />
+									<div id="email_error"></div>
+								
+								</div>
+								<input type="submit" class="mail-sender"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="b-review">
+			<div class="container">
+				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+					<div id="carousel-small-rev" class="owl-carousel enable-owl-carousel" data-items="1" data-navigation="true" data-auto-play="true" data-stop-on-hover="true" data-items-desktop="1" data-items-desktop-small="1" data-items-tablet="1" data-items-tablet-small="1">
+						<div class="b-review__main">
+							<div class="b-review__main-person">
+								<div class="b-review__main-person-inside">
+								<img src="images/user_active.png" height="65" alt="">
+								</div>
+							</div>
+							<h5><span>Шакенов Нуржан</span>, Покупатель, Двигатель Lexus RX300</h5>
+							<p> </p>
+						</div>
+						<div class="b-review__main">
+							<div class="b-review__main-person">
+								<div class="b-review__main-person-inside">
+								</div>
+							</div>
+							<h5><span>Шакенов Нуржан</span>, Покупатель, Двигатель Lexus RX300</h5>
+							<p> </p>
+						</div>
+						<div class="b-review__main">
+							<div class="b-review__main-person">
+								<div class="b-review__main-person-inside">
+								</div>
+							</div>
+							<h5><span>Шакенов Нуржан</span>, Покупатель, Двигатель Lexus RX300</h5>
+							<p> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="b-footer">
+		<a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="b-footer__company">
+							<div class="b-nav__logo">
+								<h3><a href="index.html">Auto<span>Запчасти</span></a></h3>
+							</div>
+							<p>&copy; 2017 Все права защищены, автор Шакенов Нуржан.</p>
+						</div>
+					</div>
+					<div class="col-xs-8">
+						<div class="b-footer__content">
+							<div class="b-footer__content-social">
+								<a href="https://www.facebook.com/"><span class="fa fa-facebook-square"></span></a>
+								<a href="https://www.twitter.com/"><span class="fa fa-twitter-square"></span></a>
+								<a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a>
+								<a href="https://vk.com/"><span class="fa fa-vk"></span></a>
+							</div>
+							<nav class="b-footer__content-nav">
+								<ul>
+									<li><a href="index.html">на Главную</a></li>
+									<li><a href="index.html">о Нас</a></li>
+									<li><a href="index.html">Магазин</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/slider/jquery.ui-slider.js"></script>
+		<script src="js/jquery.smooth-scroll.js"></script>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/theme.js"></script>
+			<script>
+			var username = document.forms['vform']['username'];
+	var email = document.forms['vform']['email'];
+
+	// SELECTING ALL ERROR DISPLAY ELEMENTS
+	var name_error = document.getElementById('name_error');
+	var email_error = document.getElementById('email_error');
+
+	// SETTING ALL EVENT LISTENERS
+	username.addEventListener('blur', nameVerify, true);
+	email.addEventListener('blur', emailVerify, true);
+
+   
+	function Validate() {
+		// validate username
+		if (username.value == "") {
+			username.style.border = "1px solid #EF5F54";
+			document.getElementById('username_div').style.color = "#EF5F54";
+			name_error.textContent = "Username is required";
+			username.focus();
+			return false;
+		}
+		// validate username
+		if (username.value.length < 3) {
+			username.style.border = "1px solid #EF5F54";
+			document.getElementById('username_div').style.color = "#EF5F54";
+			name_error.textContent = "Username must be at least 3 characters";
+			username.focus();
+			return false;
+		}
+		// validate email
+		if (email.value == "") {
+			email.style.border = "1px solid #EF5F54";
+			document.getElementById('email_div').style.color = "#EF5F54";
+			email_error.textContent = "Email is required";
+			email.focus();
+			return false;
+		}
+        alert('Отправка прошла успешно!');
+	}
+    
+	// event handler functions
+	function nameVerify() {
+		if (username.value != "") {
+			username.style.border = "1px solid #5e6e66";
+			document.getElementById('username_div').style.color = "#5e6e66";
+			name_error.innerHTML = "";
+			return true;
+		}
+	}
+
+	function emailVerify() {
+		if (email.value != "") {
+			email.style.border = "1px solid #5e6e66";
+			document.getElementById('email_div').style.color = "#5e6e66";
+			email_error.innerHTML = "";
+			return true;
+		}
+	}
+	</script>
+	<script>
+	$('.js-button-campaign').click(function(){
+		$('.main').css('filter', 'blur(5px)');
+		$('.js-overlay-campaign').fadeIn();
+		$('.js-overlay-campaign').addClass('disabled');
+	});
+	$('.js-close-campaign').click(function(){
+		$('.js-overlay-campaign').fadeOut();
+		$('.main').css('filter', 'none');
+	});
+	$(document).mouseup(function(e){
+		var popup=$('.js-popup-campaign');
+		if (e.target!=popup[0]&&popup.has(e.target).length===0) {
+			$('.js-overlay-campaign').fadeOut();
+		}
+	});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>AutoЗапчасти</title>
+
+		<link href="css/master.css" rel="stylesheet">
+
+
+
+	</head>
+	<body class="m-contacts">
+	<header class="b-topBar">
+			<div class="container">
+				<div class="row">
+					<div class="nav-desk col-md-4 col-sm-3">
+						<div class="b-topBar__addr">
+							<span class="fa fa-map-marker"></span>
+							г. Алматы
+						</div>
+					</div>
+					<div class="nav-desk col-md-2 col-sm-3">
+						<div class="b-topBar__tel">
+							<span class="fa fa-phone"></span>
+							8-777-619-85-97
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<nav class="b-topBar__nav">
+							<ul>
+								<li><a href="index.html">Корзина</a></li>
+								<li><a href="registration.html">Регистрация</a></li>
+								<li><a href="index.html">Вход</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+			<nav class="b-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-4">
+						<div class="b-nav__logo">
+							<h3><a href="index.html">Auto<span>Запчасти</span></a></h3>
+							<h2><a href="index.html">Только качество</a></h2>
+						</div>
+					</div>
+					<div class="col-sm-9 col-xs-8" id="mobile-slider">
+						<div class="b-nav__list">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse navbar-main-slide" id="nav">
+								<ul class="navbar-nav-menu">
+									<li class="dropdown">
+										<a href="index.html">Главная</a>
+									</li>
+									<li><a href="index.html">О нас</a></li>
+									<li><a href="listings.html">Магазин</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="b-breadCumbs">
+			<div class="container">
+				<a href="index.html" class="b-breadCumbs__page">Главная</a><span class="fa fa-angle-right"></span><a href="contacts.html" class="b-breadCumbs__page m-active">Контакты</a>
+			</div>
+		</div>
+
+		<div class="b-map" id="map" style="width: 100vw; height: 30rem" >
+		</div>
+
+		<section class="b-contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="b-contacts__form">
+							<header class="b-contacts__form-header ">
+								<h2 class="s-titleDet">Контактная форма</h2> 
+							</header>
+							<p>Если у вас есть вопросы, пожалуйста заполните ниже указанные поля и мы немелленно ответим на ваши вопросы</p>
+							<form id="contactForm" novalidate class="s-form"">
+								<div class="s-relative">
+									<select name="user-topic" id="user-topic" class="m-select">
+										<option value="Not select">Выберите тему</option>
+										<option >Моторы</option>
+										<option >Фары</option>
+										<option >Карбюраторы</option>
+										<option >Амортизаторы</option>
+									</select>
+									<span class="fa fa-caret-down"></span>
+								</div>
+								<input type="text" placeholder="Введите имя" value="" name="user-name" id="user-name" />
+								<input type="text" placeholder="Введите вашу почту" value="" name="user-email" id="user-email" />
+								<input type="text" placeholder="Телефонный номер" value="" name="user-phone" id="user-phone" />
+								<textarea id="user-message" name="user-message" placeholder="Ваши желания или вопросы"></textarea>
+								<button type="submit" class="btn m-btn">Далее<span class="fa fa-angle-right"></span></button>
+							</form>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="b-contacts__address">
+							<div class="b-contacts__address-hours">
+								<h2 class="s-titleDet">Рабочие дни</h2>
+								<div class="b-contacts__address-hours-main" >
+									<div class="row">
+										<div class="col-md-6 col-xs-12">
+											<p>Пон-Суб : 9:00 - 18:00 <br/>Воскресенье выходной</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="b-contacts__address-info">
+								<h2 class="s-titleDet">Наш адрес</h2>
+								<address class="b-contacts__address-info-main">
+									
+									<div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-phone"></span>
+												Телефон
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+												<em>8-777-619-85-97</em>
+											</div>
+										</div>
+									</div>
+									<div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-envelope"></span>
+												Почта
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+												<em>autoZapchasti@gmail.com</em>
+											</div>
+										</div>
+									</div>
+								</address>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="b-footer">
+			<a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="b-footer__company  fadeInLeft">
+							<div class="b-nav__logo">
+								<h3><a href="index.html">Auto<span>Запчасти</span></a></h3>
+							</div>
+							<p>&copy; 2017 Все права защищены, автор Шакенов Нуржан.</p>
+						</div>
+					</div>
+					<div class="col-xs-8">
+						<div class="b-footer__content">
+							<div class="b-footer__content-social">
+								<a href="https://www.facebook.com/"><span class="fa fa-facebook-square"></span></a>
+								<a href="https://www.twitter.com/"><span class="fa fa-twitter-square"></span></a>
+								<a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a>
+								<a href="https://vk.com/"><span class="fa fa-vk"></span></a>
+							</div>
+							<nav class="b-footer__content-nav">
+								<ul>
+									<li><a href="index.html">на Главную</a></li>
+									<li><a href="about.html">о Нас</a></li>
+									<li><a href="listTable.html">Магазин</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>  
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    	</script>
+	   	 <script type="text/javascript">
+	    function init () {
+	    var multiRoute = new ymaps.multiRouter.MultiRoute({
+	        referencePoints: [
+	            [43.20780131, 76.66962747],
+	        ],
+	        params: {
+	            results: 2
+	        }
+	    }, {
+	        boundsAu1toApply: true
+	    });
+	    var myMap = new ymaps.Map('map', {
+	        center: [43.20780131, 76.66962747],
+	        zoom: 7,    
+	      });
+	    myMap.geoObjects
+	    .add(multiRoute);
+		}
+		ymaps.ready(init);
+		</script>
+	</body>
+</html>

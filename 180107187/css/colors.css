@@ -1,0 +1,88 @@
+.b-search__main-form-submit button span.fa,
+.navbar-toggle,
+.b-slider__info p span,
+.b-slider__info a.btn:hover,
+.b-search__main-title,
+.b-search__main-form-submit button:hover,
+.b-search__main-form-submit button.btn.m-btn:hover span,
+.b-search__main-form-submit button span.fa,
+.b-featured__item-price,
+.b-welcome,
+.b-welcome__services-img:hover,
+.b-contact__form button,
+.m-home .b-slider__info .btn.m-btn,
+.b-items__aside-main-body-item .ui-widget-header,
+.b-items__aside-main-footer button,
+.b-items__aside-main-footer button:hover span,
+.b-items__cars-one-info-header > span,
+.b-items__cars-one-info a.btn:hover,
+.s-form button[type='submit'],
+.s-form button[type='submit']:hover span.fa,
+.b-search__main-form-submit button.btn.m-btn span.fa,
+.b-search__main-type svg:hover g,
+.ui-slider-handle:after,
+.b-search__main-form-submit button.btn.m-btn:hover,
+.b-items__aside-main-footer button.btn.m-btn,
+.b-items__aside-main-footer button.btn.m-btn:hover span,
+.b-welcome .container,
+{
+    background-color:#f76d2b;
+    fill: #f76d2b;
+}
+
+
+.s-form select,
+.s-form input[type='text'],
+.s-form input[type='password'],
+.s-form textarea,
+.s-form button[type='submit'] span.fa,
+.dropdown-menu
+{
+    background-color: #fff;
+    fill:#fff;
+}
+
+.s-form button[type='submit'],
+.s-form button[type='submit']:hover span.fa,
+.b-search__main-form-submit button.btn.m-btn,
+.b-search__main-form-submit button.btn.m-btn:hover,
+.b-search__main-form-submit button.btn.m-btn span.fa,
+.owl-theme .owl-controls .owl-buttons div:before,
+.b-info__aside > a.btn.m-btn:hover,
+.m-home .b-slider__info a.btn.m-btn:hover span,
+.b-items__cars-one-info a.btn.m-btn:hover,
+.b-items__aside-main-footer button.btn.m-btn,
+.b-items__aside-main-footer button.btn.m-btn:hover span.fa
+{
+    color:#fff;
+    fill:#fff;
+}
+footer{
+    background-color: #272727;
+}
+.b-contacts__address-info-main,
+.b-contacts__address-hours-main
+{
+    background-color: #F5F5F5; 
+}
+
+.b-article__main-add button.btn.m-btn:hover span.fa,
+.s-form button[type='submit'],
+.s-form button[type='submit']:hover span.fa,
+.b-items__aside-sell-info a.btn.m-btn:hover span.fa
+{
+    background-color:#f76d2b;
+    fill: #f76d2b;
+}
+
+.b-personal__worker-img-social-main a:hover,
+.b-contacts__address-info-main-item span.fa
+{
+    color:#f76d2b;
+    fill:#f76d2b;
+}
+.s-form button[type='submit'] span.fa,
+.b-contacts__address-info-main-item
+{
+    color:#555;
+}
